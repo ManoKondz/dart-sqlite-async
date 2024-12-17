@@ -1,8 +1,3 @@
-# dart-sqlite-async
-Aplicação desenvolvida em Dart utilizando SQLite com operações assíncronas. O projeto implementa um CRUD (Create, Read, Update, Delete) completo para gerenciar registros de alunos em um banco de dados SQLite, com foco na criação, consulta, atualização e exclusão de dados de forma eficiente e assíncrona.
+# CRUD SQLite com Flutter
 
-###Funcionalidades:
-Criação automática do banco de dados SQLite e da tabela TB_ALUNOS.
-Persistência assíncrona de dados: Inserção, consulta, atualização e exclusão de registros.
-Estrutura organizada e pronta para expansão.
-O projeto atende à especificação acadêmica e está preparado para execução em ambientes compatíveis com Dart.
+Este projeto é uma aplicação simples de CRUD (Criar, Ler, Atualizar, Deletar) utilizando o SQLite em Flutter para gerenciar informações de alunos. A aplicação armazena dados de alunos (nome e idade) em um banco de dados local e oferece a capacidade de adicionar, listar e excluir registros.

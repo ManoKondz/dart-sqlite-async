@@ -1,21 +1,8 @@
-name: dart_sqlite_async
-description: Aplicação Flutter com SQLite utilizando operações assíncronas para manipular registros de alunos.
-version: 1.0.0+1
-publish_to: 'none'
-
+name: meu_projeto_sqlite
+description: Projeto Dart com SQLite
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.5.0 <4.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
-  sqflite: ^2.3.0 
-  path: ^1.8.3 
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
-
-flutter:
-  uses-material-design: true
+  sqlite3: ^1.0.0
+  ffi: ^2.0.0 
